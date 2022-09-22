@@ -132,16 +132,23 @@
     display: flex;
     align-items: center;
   }
-  
+
   .header{
-    background: #69197C;
     color: #56DDF0;
+    font-weight: bold;
     text-align: center;
     padding: 100px;
     padding-top: 300px;
     padding-bottom: 30px;
   }
-  
+
+  .header p{
+    background: #69197C;
+    padding: 10px 100px 10px 100px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 50px #56DDF0;
+  }
   .header h2{
     color: #69197C;
     margin-top: 0; 
